@@ -1,0 +1,268 @@
+body {
+    font-family: "Poppins", sans-serif;;
+    color: rgb(70, 70, 70);
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.font24 {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    color: black;
+    height: 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 {
+    margin-left: 24px;
+    display: flex;
+}
+
+.nav1_1 {
+    display: flex;
+}
+
+.nav2 {
+    margin-right: 24px;
+    display: flex;
+    gap: 16px;
+}
+
+.hero{
+    background-color: rgb(222, 227, 232);
+    display: flex;
+}
+
+.heroimg {
+    padding: 32px 24px 32px 24px;
+}
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero1h1 {
+    font-size: 4rem;
+    margin-bottom: 32px;
+
+}
+
+.herostart {
+    width: 240px;
+    margin-top: 32px;
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.inf1 {
+    padding: 32px 24px 32px 24px;
+}
+
+.inf1_1 {
+    font-size: 2rem;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.inf1_2 {
+    padding-bottom: 32px;
+}
+
+.inf2 {
+    display: flex;
+    flex-direction: column;
+    border-left: groove;
+}
+
+.inf2_1 {
+    display: flex;
+    border-bottom: groove;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 8px;
+}
+
+.inf2_1:hover {
+background-color: rgb(197, 205, 213);
+}
+
+.inf2_1_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 24px;
+}
+
+.readmore {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.readmore:hover {
+    text-decoration: underline;
+}
+
+.course {
+    padding: 32px 72px 32px 72px;
+    background-color: rgb(233, 238, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course1 {
+    font-size: 2.5rem;
+}
+
+.course2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course2row {
+    display: flex;
+    padding-top: 32px;
+    gap: 32px;
+}
+
+.course2box {
+    background-color: white;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
+
+.thesish2 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 32px;
+}
+
+.thesiscontent {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.thesis1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.thesisvideo {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.thesis1_1 {
+    padding-top: 8px;
+}
+
+.thesis2column {
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis2row {
+    display: flex;
+    align-items: center;
+}
+
+.thesis2row:hover {
+    background-color: rgb(197, 205, 213);
+}
+
+.thesisimg {
+    padding: 16px;
+}
+
+footer {
+    padding: 16px 24px 48px 24px;
+    border-top: groove;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobicon {
+    display: none;
+}
+
+
+@media (max-width: 480px) {
+	.nav1 {
+        display: none;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mobicon {
+        display: block;
+    }
+
+    .heroimg {
+        width: 100%;
+        padding: 0px 0px 32px 0px ;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .hero1 {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero1h1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    }
+
+    .herostart {
+        width: 400px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    }
+
